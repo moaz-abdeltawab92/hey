@@ -1,7 +1,178 @@
-    <!-- <body>
-         Splash Screen -->
-      
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="مشروع حي السلام - Al Salam District Project" />
+  <title>مشروع حي السلام | Al Salam District Project</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  
+  <!-- Scripts -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div id="splash-screen">
+    <div class="splash-content">
+        <img src="logo.png" alt="Logo" class="splash-logo">
+    </div>
+</div>
 
-        <!-- Header -->
-        <!-- ... existing code ... -->
-    
+<div class="lang-switcher">
+  <button onclick="toggleLanguage()" aria-label="Toggle Language">
+    <i class="fas fa-globe"></i> English / العربية
+  </button>
+</div>
+
+<header class="hero" role="banner">
+  <div class="content">
+    <h1 class="ar-text">مشروع حي السلام</h1>
+    <h1 class="en-text">Al Salam District Project</h1>
+    <p class="ar-text">مجتمع سكني متكامل في قلب البريمي</p>
+    <p class="en-text">An Integrated Community in the Heart of Al Buraimi</p>
+  </div>
+</header>
+
+<main class="container" role="main">
+
+  <section data-aos="fade-up" class="about-section">
+    <h2 class="ar-text">من نحن</h2>
+    <h2 class="en-text">About Us</h2>
+    <div class="content-wrapper">
+      <p class="ar-text">مشروع حي السلام هو حي سكني متكامل يقع في ولاية البريمي بمحافظة البريمي، سلطنة عُمان. يمتد المشروع على مساحة تزيد عن 78,000 متر مربع، ويضم 521 وحدة سكنية متنوعة. يُعد هذا المشروع جزءًا من مبادرة "صروح" التي أطلقتها وزارة الإسكان والتخطيط العمراني لتوفير أحياء سكنية متكاملة الخدمات، تهدف إلى تعزيز جودة الحياة وتحقيق الاستقرار الأسري للمواطنين</p>
+      <p class="en-text">Al Salam District Project is a fully integrated residential community located in the Al Buraimi Governorate, Sultanate of Oman. The project spans over 78,000 square meters and includes 521 diverse residential units. This project is part of the "Sruoh" initiative launched by the Ministry of Housing and Urban Planning to provide fully serviced residential communities. It aims to enhance the quality of life and achieve family stability for citizens.</p>
+    </div>
+  </section>
+  
+  <section data-aos="fade-up" class="vision-section">
+    <div class="section-header">
+      <h2 class="ar-text">رؤيتنا</h2>
+      <h2 class="en-text">Our Vision</h2>
+    </div>
+    <div class="content-wrapper">
+      <p class="ar-text">نسعى إلى إنشاء مجتمع سكني حديث ومتكامل يلبي تطلعات المواطنين ويوفر بيئة معيشية مريحة وآمنة، من خلال توفير بنية تحتية متطورة ومرافق خدمية متكاملة.</p>
+      <p class="en-text">We aim to create a modern and integrated residential community that meets the aspirations of citizens and provides a comfortable and safe living environment, through the provision of advanced infrastructure and integrated service facilities.</p>
+    </div>
+  </section>
+
+  <section data-aos="fade-up" class="services-section">
+    <h2 class="ar-text">خدماتنا</h2>
+    <h2 class="en-text">Our Services</h2>
+    <div class="feature-grid">
+      <div class="feature-item">
+        <div class="feature-icon"><i class="fas fa-building"></i></div>
+        <h3 class="ar-text">وحدات سكنية متنوعة</h3>
+        <h3 class="en-text">Diverse Residential Units</h3>
+        <p class="ar-text">تصاميم عصرية مع مراعاة المساحات الخضراء والمرافق المتكاملة</p>
+        <p class="en-text">Modern designs with spacious green areas and integrated facilities</p>
+      </div>
+      
+      <div class="feature-item">
+        <div class="feature-icon"><i class="fas fa-home"></i></div>
+        <h3 class="ar-text">بيع وشراء العقارات</h3>
+        <h3 class="en-text">Real Estate Trading</h3>
+        <p class="ar-text">خدمات شاملة مع ضمان أعلى معايير الشفافية والموثوقية</p>
+        <p class="en-text">Comprehensive services with guaranteed highest standards of transparency</p>
+      </div>
+      
+      <div class="feature-item">
+        <div class="feature-icon"><i class="fas fa-key"></i></div>
+        <h3 class="ar-text">إدارة الأملاك</h3>
+        <h3 class="en-text">Property Management</h3>
+        <p class="ar-text">خدمات إدارية متكاملة لضمان الحفاظ على قيمة الاستثمار</p>
+        <p class="en-text">Integrated administrative services to preserve investment value</p>
+      </div>
+      
+      <div class="feature-item">
+        <div class="feature-icon"><i class="fas fa-chart-line"></i></div>
+        <h3 class="ar-text">استشارات عقارية</h3>
+        <h3 class="en-text">Real Estate Consulting</h3>
+        <p class="ar-text">فريق من الخبراء لتقديم الاستشارات المتخصصة</p>
+        <p class="en-text">A team of experts providing specialized consultancy</p>
+      </div>
+    </div>
+  </section>
+
+  <section data-aos="fade-up" class="project-images-section">
+    <h2 class="ar-text">مخطط مشروع حي السلام</h2>
+    <h2 class="en-text">Project Layout</h2>
+    <div class="project-images">
+      <img src="m1.png" alt="مخطط مشروع حي السلام 1" loading="lazy" />
+      <img src="m2.png" alt="مخطط مشروع حي السلام 2" loading="lazy" />
+      <img src="m3.png" alt="مخطط مشروع حي السلام 3" loading="lazy" />
+      <img src="m4.png" alt="مخطط مشروع حي السلام 4" loading="lazy" />
+      <img src="m5.png" alt="مخطط مشروع حي السلام 5" loading="lazy" />
+      <img src="m6.png" alt="مخطط مشروع حي السلام 6" loading="lazy" />
+    </div>
+  </section>
+
+  <section data-aos="fade-up" class="quote-section">
+    <div class="quote-block">
+      <div class="quote-icon"><i class="fas fa-quote-right"></i></div>
+      <p class="ar-text">يُعتبر الاستثمار المحلي إحدى الركائز المهمة لتنويع مصادر الدخل الوطني، فبعد أن أطلقنا العديد من البرامج الوطنية، وهيأنا البيئة المساعدة، فإننا نحت على استثمار رؤوس الأموال محلياً فأمامها فرص استثمار مُجْزِيَةٍ في جميع المجالات، ونتطلع لأن تكون بلادُنَا وجهةً استثمارية رائدة، لا سيّما في المجالات التي تُعزّز توجهاتنا الرامية لتوسيع حِجْمِ اقتصادنا الوطني، وتنويع مصادر الدخل</p>
+      <p class="en-text">Local investment is considered one of the important pillars of diversifying national income sources. After launching numerous national programs and creating a supportive environment, we are keen to invest capital locally. This is because there are lucrative investment opportunities in all fields. We aspire for our country to become a leading investment destination, particularly in areas that reinforce our efforts to expand the size of our national economy and diversify sources of income.</p>
+      <div class="quote-author">
+        <p class="ar-text">كلمات مضيئة لمولانا حضرة صاحب الجلالة السلطان هيثم بن طارق المعظم</p>
+        <p class="en-text">His Majesty Sultan Haitham bin Tariq - May Allah protect him</p>
+      </div>
+    </div>
+  </section>
+
+  <section data-aos="fade-up" class="quote-section">
+    <div class="quote-block">
+      <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+      <p class="ar-text">في قلب محافظة البريمي، حيث الأصالة تلاقي طموحات الغد، وحيث يمتزج عبق التاريخ بنسائم المستقبل، كان حلمنا أن نخلق حيا ينبض بالحياة، ويكتب قصة جديدة من الإبداع والتميز. في ظل النهضة العمرانية التي تشهدها السلطنة، والتي تتجلى في كل ركن من أركانها، تأتي مشاريع التطوير العقاري لتواكب هذا الحراك الوطني، وترسم ملامح المستقبل المشرق الذي ننشده جميعًا. ومن هذا المنطلق، يسعدنا ويشرفنا أن نطلق مشروع حي السلام بمحافظة البريمي: مشروعاً ينطلق من رؤية واضحة تهدف إلى تقديم بيئة سكنية متكاملة تجمع بين الحداثة والأصالة وتلبي تطلعات الأفراد والعائلات نحو حياة أفضل ومستوى معيشة أرقى. لقد حرصنا منذ اللحظة الأولى على أن يكون حي السلام أكثر من مجرد مخطط سكني أردناه مجتمعًا نابضًا بالحياة يحتضن مفاهيم الجودة والاستدامة، ويراعي أدق تفاصيل التخطيط العمراني العصري. فقد تم تصميم الحي بعناية فائقة ليشمل مساحات خضراء رحبة، ومرافق خدمية متكاملة، وبنية تحتية ذكية، مما يوفر لقاطنيه بيئة مثالية تنسجم مع احتياجاتهم اليومية وتطلعاتهم المستقبلية.</p>
+      <p class="en-text">In the heart of Al Buraimi Governorate, where authenticity meets tomorrow's aspirations, and where the fragrance of history blends with the breezes of the future, our dream was to create a neighborhood that pulses with life and writes a new story of creativity and excellence. Amid the urban renaissance witnessed by the Sultanate, manifested in every corner, real estate development projects come to keep pace with this national movement and paint the features of the bright future we all aspire to. From this standpoint, we are pleased and honored to launch the Al Salam District Project in Al Buraimi Governorate: a project that stems from a clear vision aimed at providing an integrated residential environment that combines modernity and authenticity and meets the aspirations of individuals and families towards a better life and a higher standard of living. From the very first moment, we have been keen to make Al Salam District more than just a residential plan; we wanted it to be a vibrant community that embraces the concepts of quality and sustainability, and considers the finest details of modern urban planning. The district has been carefully designed to include spacious green areas, integrated service facilities, and smart infrastructure, providing its residents with an ideal environment that harmonizes with their daily needs and future aspirations.</p>
+      <div class="quote-author">
+        <p class="ar-text">كلمة رئيس مجلس الادارة</p>
+        <p class="en-text">Chairman's Message</p>
+      </div>
+    </div>
+  </section>
+
+  <section data-aos="fade-up" class="cta-section">
+    <h2 class="ar-text">انضم إلينا في رحلة التطوير العقاري</h2>
+    <h2 class="en-text">Join Us in the Real Estate Development Journey</h2>
+    <p class="ar-text">نعمل على تعزيز جاهزيتنا للاستثمار وتنمية دورنا المحلي</p>
+    <p class="en-text">We are working to enhance our readiness for investment and develop our local role</p>
+    <a href="#contact" class="cta-button ar-text">تواصل معنا</a>
+    <a href="#contact" class="cta-button en-text">Contact Us</a>
+  </section>
+
+  <section data-aos="fade-up" id="contact" class="contact-section">
+    <h2 class="ar-text">تواصل معنا</h2>
+    <h2 class="en-text">Contact Us</h2>
+    <div class="contact-info">
+      <div class="contact-item">
+        <i class="fas fa-map-marker-alt"></i>
+        <p class="ar-text">البريمي، سلطنة عمان</p>
+        <p class="en-text">Al Buraimi, Oman</p>
+      </div>
+      <div class="contact-item">
+        <i class="fas fa-phone"></i>
+        <p><a href="tel:+96898294884">+968-98294884</a></p>
+      </div>
+      <div class="contact-item">
+        <i class="fas fa-envelope"></i>
+        <p><a href="mailto:info@hayyalsalam.com">info@hayyalsalam.com</a></p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer role="contentinfo">
+  <div class="footer-logos">
+    <img src="image.png" alt="شعار وزارة الإسكان" class="footer-logo" loading="lazy">
+    <img src="hayy.png" alt="شعار حي السلام" class="footer-logo" loading="lazy">
+    <img src="wihte.png" alt="شعار صروح البريمي" class="footer-logo" loading="lazy">
+  </div>
+  <p class="ar-text">&copy; 2025 صروح البريمي للتطوير العقاري - جميع الحقوق محفوظة</p>
+  <p class="en-text">&copy; 2025 Sruoh Al Buraimi Real Estate - All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
